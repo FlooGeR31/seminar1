@@ -33,7 +33,7 @@ else
 3 -> Среда
 5 -> Пятница*/
 
-Console.Write("Введите число от 1 до 7: ");
+/*Console.Write("Введите число от 1 до 7: ");
 int number = int.Parse(Console.ReadLine()!);
 int Monday = 1;
 int Tuesday = 2;
@@ -50,5 +50,16 @@ else if (number == Thursday){Console.WriteLine("Четверг");}
 else if (number == Friday){Console.WriteLine("Пятница");}
 else if (number == Saturday){Console.WriteLine("Суббота");}
 else if (number == Sunday){ Console.WriteLine("Воскресенье");}
-else if (number<1 || number>7){Console.WriteLine("В неделе всего 7 дней, введи корректное число!");}
+else if (number<1 || number>7){Console.WriteLine("В неделе всего 7 дней, введи корректное число!");}*/
 
+//Написать программу, в которую принимается одно число и выводится на экран все целые числа в промежутке от - N до N
+
+Console.Write("Введите число: ");
+int number = int.Parse(Console.ReadLine()!);
+int number2 = -number;
+
+while (number2<= number)
+{
+    Console.Write($"{number2} ");
+    number2++;
+}

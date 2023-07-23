@@ -119,7 +119,7 @@ else if (number3 > number1 && number3 > number2)
 -3 -> нет
 7 -> нет*/
 
-Console.Write("Введите число: ");
+/*Console.Write("Введите число: ");
 int number = int.Parse(Console.ReadLine()!);
 
 
@@ -128,4 +128,23 @@ if (number%2 == 0)
 {
     Console.WriteLine($"Число {number} является четным");
 }
-else Console.WriteLine($"Число {number} является нечетным");
+else Console.WriteLine($"Число {number} является нечетным");*/
+
+/*Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+5 -> 2, 4
+8 -> 2, 4, 6, 8*/
+
+
+Console.Write("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+int num2 = 1;
+
+for (int i = num2; i <= number; i++)
+{
+    if (i % 2 == 0)
+    {
+Console.Write(i + " ");
+    }
+}
+

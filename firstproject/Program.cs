@@ -70,3 +70,22 @@ int num = number%10;
 Console.WriteLine($"Последняя цифра числа {number} равна {num}");*/
 
 
+/*Задача 2: Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
+a = 5; b = 7 -> max = 7
+a = 2 b = 10 -> max = 10
+a = -9 b = -3 -> max = -3*/
+
+Console.Write("Введите первое число: ");
+int number = int.Parse(Console.ReadLine()!);
+Console.Write("Введите второе число: ");
+int number2 = int.Parse(Console.ReadLine()!);
+
+if (number > number2)
+{
+    Console.WriteLine($"Большее число {number}, а меньшее число {number2} ");
+
+}
+else {
+    Console.WriteLine($"Большее число {number2}, а меньшее число {number} ");
+}
+

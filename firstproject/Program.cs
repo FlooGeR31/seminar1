@@ -50,5 +50,5 @@ else if (number == Thursday){Console.WriteLine("Четверг");}
 else if (number == Friday){Console.WriteLine("Пятница");}
 else if (number == Saturday){Console.WriteLine("Суббота");}
 else if (number == Sunday){ Console.WriteLine("Воскресенье");}
-else {Console.WriteLine("В неделе всего 7 дней, введи корректное число!");}
+else if (number<1 || number>7){Console.WriteLine("В неделе всего 7 дней, введи корректное число!");}
 

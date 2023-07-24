@@ -140,11 +140,21 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 int num2 = 1;
 
-for (int i = num2; i <= number; i++)
+
+while (num2 <= number)
+{
+    if(num2 % 2 == 0)
+    {
+        Console.Write(num2 + " "); 
+    }
+    num2++;
+}
+
+/*for (int i = num2; i <= number; i++)
 {
     if (i % 2 == 0)
     {
 Console.Write(i + " ");
     }
-}
+}*/
 
